@@ -14,7 +14,14 @@
 - git push origin main
 - git pull orgin main
 - git status 
+- git checkout -b branch-name
 ```
+
+
+# Lab
+- Create new branch with your name 
+- Add one file with your name
+- Push code
 
 # Ref : 
 - Branches https://www.atlassian.com/git/tutorials/using-branches
