@@ -8,9 +8,11 @@
 - git config --global user.email "your_emailid"
 - git config --list
 - git clone https://github.com/Angelszm/git-tuto.git
+- git init
 - git remote -v ## Track Repo
 - git add .
 - git commit -m "Message"
+- git commit -am "Message"
 - git push origin main
 - git pull orgin main
 - git status 
@@ -28,15 +30,53 @@
 
 
 ## Next Session
+# VISUALIZING 
+```
+- git log (to see very details of every commits)
+- git log -2
+- git log --oneline
+- git log --graph --pretty="%C(yellow) Hash: %h %C(blue)Date: %ad %C(red) Message: %s " --date=human
+- git log --graph --pretty="%C(bold blue)%h" --decorate --all
+- git log --graph --pretty="%C(yellow) %s"
+- git log --graph --pretty='%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset'
+- git log --oneline --abbrev-commit --all --graph --decorate --color
+- git log --oneline --abbrev-commit --all --graph
+- can use alias 
+    - alias gg='git log --oneline --abbrev-commit --all --graph --decorate --color'
+```
+
+- git switch <branch name>
 - git fetch (to fetch all of the branches from the repository. )
+- git add <file name>
 - git stash
 - git stash pop 
 - git stash apply
 - git push --set-upstream origin <branchname> or git push -u origin <branch name>
 - git branch --vv (to check upstream branch)
 - git reset --hard {Warning!!!}
+- git merge <branch name>
+- Merging vs Rebasing Option
+- get reset --hard with 
+- git rebase <branch name>
+
+
+
+Why Rebase ? 
+
+
+Deleting 
+- git checkout master
+- git branch -d feature
+- git push origin --delete feature
+- git branch --all
+
+
+Cherry Pick 
+- git checkout <branch name> 
+- git pull origin <branch name> 
+- git checkout -b cherry-pick/cp
+- git cherry-pick commit-hash-str
+- git push -u origin cherry-pick/cp
 
 # Ref : 
 -  https://www.atlassian.com/git/tutorials/using-branches
-
-stash test
