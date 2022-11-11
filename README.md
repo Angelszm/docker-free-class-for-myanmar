@@ -7,6 +7,7 @@
 - git config --global user.name "your_username"
 - git config --global user.email "your_emailid"
 - git config --list
+- git clone https://github.com/Angelszm/git-tuto.git
 ```
 
 
