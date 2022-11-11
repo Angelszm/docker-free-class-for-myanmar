@@ -30,7 +30,7 @@
 
 
 ## Next Session
-# VISUALIZING 
+### VISUALIZING 
 ```
 - git log (to see very details of every commits)
 - git log -2
@@ -45,6 +45,7 @@
     - alias gg='git log --oneline --abbrev-commit --all --graph --decorate --color'
 ```
 
+```
 - git switch <branch name>
 - git fetch (to fetch all of the branches from the repository. )
 - git add <file name>
@@ -58,7 +59,7 @@
 - Merging vs Rebasing Option
 - get reset --hard with 
 - git rebase <branch name>
-
+```
 
 
 Why Rebase ? 
