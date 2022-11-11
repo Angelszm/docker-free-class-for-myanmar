@@ -9,6 +9,11 @@
 - git config --list
 - git clone https://github.com/Angelszm/git-tuto.git
 - git remote -v ## Track Repo
+- git add .
+- git commit -m "Message"
+- git push origin main
+- git pull orgin main
+- git status 
 ```
 
 # Ref : 
