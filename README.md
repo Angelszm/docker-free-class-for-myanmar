@@ -1,7 +1,7 @@
 # docker-free-class-for-myanmar
 
 - Git Tutorial
-## Commands
+## Session 1
 ```
 - git --version
 - git config --global user.name "your_username"
@@ -29,7 +29,7 @@
 - Push code
 
 
-## Next Session
+## Session 2: Next Session
 ### VISUALIZING 
 ```
 - git log (to see very details of every commits)
@@ -43,6 +43,7 @@
 - git log --oneline --abbrev-commit --all --graph
 - can use alias 
     - alias gg='git log --oneline --abbrev-commit --all --graph --decorate --color'
+    - Ref for alias https://gitimmersion.com/lab_11.html
 ```
 
 ```
@@ -63,7 +64,10 @@
 
 
 Why Rebase ? 
-
+- Cleaner History
+- Linear Project History
+- No more unnecessary merge commits
+- Don't rebase with other people share projects {SERIOUSLY}
 
 Deleting 
 - git checkout master
@@ -79,5 +83,16 @@ Cherry Pick
 - git cherry-pick commit-hash-str
 - git push -u origin cherry-pick/cp
 
+
+## Session 3 - Last day of Class (May be End of November)
+- git revert
+- git conflicts 
+- git tag 
+- git history 
+
 # Ref : 
 -  https://www.atlassian.com/git/tutorials/using-branches
+
+# After Class: 
+Learn from  
+- https://gitimmersion.com/lab_01.html
