@@ -14,7 +14,10 @@
 - git push origin main
 - git pull orgin main
 - git status 
+- git diff (see the changes)
 - git checkout -b branch-name
+- git branch 
+- git branch -r ## remote branch
 ```
 
 
@@ -23,5 +26,17 @@
 - Add one file with your name
 - Push code
 
+
+## Next Session
+- git fetch (to fetch all of the branches from the repository. )
+- git stash
+- git stash pop 
+- git stash apply
+- git push --set-upstream origin <branchname> or git push -u origin <branch name>
+- git branch --vv (to check upstream branch)
+- git reset --hard {Warning!!!}
+
 # Ref : 
-- Branches https://www.atlassian.com/git/tutorials/using-branches
+-  https://www.atlassian.com/git/tutorials/using-branches
+
+stash test
