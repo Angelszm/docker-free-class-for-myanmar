@@ -4,8 +4,8 @@
 ## Commands
 ```
 - git --version
-- git config –global user.name “your_username”
-- git config –global user.email “your_emailid”
+- git config –-global user.name "your_username"
+- git config –-global user.email "your_emailid"
 - git config --list
 ```
 
